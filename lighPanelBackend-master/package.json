@@ -1,0 +1,28 @@
+{
+  "name": "lighpanelbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fingerprintjs/fingerprintjs": "^4.6.1",
+    "bcryptjs": "^3.0.2",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "macaddress": "^0.5.3",
+    "mongoose": "^8.18.0",
+    "nodemailer": "^7.0.6",
+    "request-ip": "^3.3.0",
+    "router": "^1.3.8"
+  }
+}
