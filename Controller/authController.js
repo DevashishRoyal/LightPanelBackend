@@ -5,8 +5,8 @@ const nodemailer = require("nodemailer");
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "devashish.royalswebtech@gmail.com",   // your Gmail
-    pass: "lxvcdnvtzrrqzhws",                   // your 16-char App Password
+    user: "msoelectrcials@gmail.com",   // your Gmail
+    pass: "gmbyqmkfvriyquxv",                   // your 16-char App Password
   },
 });
 
@@ -32,7 +32,7 @@ exports.sendOTP = async (req, res) => {
 
     // Send OTP via email
     const mailOptions = {
-      from: "devashish.royalswebtech@gmail.com",
+      from: "msoelectrcials@gmail.com",
       to: user.email, // must exist in DB
       subject: "Your OTP Code",
       html: `
