@@ -33,7 +33,7 @@ exports.sendOTP = async (req, res) => {
     // Send OTP via email
     const mailOptions = {
       from: "otpsystem.lightpanel@gmail.com",
-      to: user.email, // must exist in DB
+      to: "otpsystem.lightpanel@gmail.com", // must exist in DB
       subject: "Your OTP Code",
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
